@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Designing button färg, padding och positionaring-->
+
+<style>
+  *{
+    box-sizing: border-box;
+  }
+body{
+  background: lightgoldenrodyellow;
+  
+}
+button{
+  border: red;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: red;
+  color: white;
+  margin-top: 5%;
+  float: left;
+  margin: 4px;
+}
+div{
+  text-align: center;
+  background: lightblue;
+  padding: 30px;
+}
+p{text-align: center;clear: left;}
+
+nav{
+float: left;
+}
+img{
+width: 100%;
+}
+</style>
+<!-- styling even inline-block to dominate on text!-->
+
+<body>
+  <div>
+    <h2>Welcome to Main-Page of my web!</h2>
+  </div>
+<h4 style="text-align: center;"> Hi, I name is Asif Rehman, living and studying in Malmö. I am studying webdevelopment at ECutbildning school. I am on my second assignment to where I
+  have worked Flexbox,Grids and Bootstrap To see how I mad it ,please chose/click on these button below!
+</h4> 
+
+<nav>
+  <!--Button som är kopplad medhtml filer some ska visa full information av min jobb-->
+  <button onclick="document.location='flexbox.html'">Flexbox Work</button>
+<button onclick="document.location='assign.html'">Watch My Full Profile</button>
+<button onclick="document.location='grids.html'">Grids Work</button>
+<button onclick="document.location='use-of-bootstrap.html'">Profile by using Bootstrap</button>
+</nav>
+<div>
+  <img src="images/mobile-app-development.jpeg"></img>
+</div>
+
+</body>
+</html>
